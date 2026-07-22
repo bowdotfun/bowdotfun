@@ -1,0 +1,34 @@
+{
+  "name": "bowfun-toolkit",
+  "version": "1.0.0",
+  "description": "Unofficial developer toolkit for bow.fun — Solidity interfaces and ethers v6 scripts for launch, buy, sell, quoting, and fee collection on Robinhood Chain.",
+  "type": "module",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "bow-launch": "node scripts/bowLaunch.js",
+    "bow-buy": "node scripts/bowBuy.js",
+    "bow-sell": "node scripts/bowSell.js",
+    "bow-quote": "node scripts/bowQuote.js",
+    "bow-collect-fees": "node scripts/bowCollectFees.js",
+    "bow-preview-fees": "node scripts/bowPreviewFees.js",
+    "bow-read-state": "node scripts/bowReadState.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "bow.fun",
+    "robinhood-chain",
+    "uniswap-v3",
+    "ethers",
+    "solidity",
+    "erc-20",
+    "fair-launch"
+  ]
+}
