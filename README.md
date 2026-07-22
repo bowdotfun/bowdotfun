@@ -4,7 +4,7 @@ The official developer toolkit for [bow.fun](https://bow.fun) — a fair-launch 
 platform on **Robinhood Chain**. Tokens launch straight into a Uniswap V3 pool with
 liquidity **locked forever**, creators earn a share of trading fees, and tokens
 **graduate** once the pool holds 3.7 ETH. Every launched token address is mined to
-end in `b03`.    
+end in `b03`.     
   
 This repo packages everything from the [official docs](https://bow.fun/docs.html)
 into a ready-to-run project: Solidity interfaces for every deployed contract,
